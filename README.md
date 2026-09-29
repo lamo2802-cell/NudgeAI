@@ -23,19 +23,25 @@ Also read the About text in `index.html` and make sure you're happy with every c
 
 Note: the 404 page and its links assume the site sits at the root of a domain. That works once you add your custom domain. On the temporary `github.io/nudge-site/` address, the 404 page's styling may not load; the main pages work fine.
 
-## Connect your own domain (after you buy it)
+## Custom domain: thisisnudge.co.uk
 
-1. In **Settings > Pages > Custom domain**, enter your domain (for example `www.yourdomain.co.uk`) and Save. GitHub adds a `CNAME` file to the repo.
-2. At your domain registrar, add DNS records:
-   - For `www`: a **CNAME** record pointing to `YOUR-USERNAME.github.io`.
-   - For the bare domain (`yourdomain.co.uk`): four **A** records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`.
-3. Wait for DNS to update (from minutes to a day), then tick **Enforce HTTPS** in the Pages settings.
+The repo already contains a `CNAME` file for `thisisnudge.co.uk`. At your domain registrar, add these DNS records:
 
-Check GitHub's current documentation for custom domains in case these values have changed: https://docs.github.com/en/pages
+| Type | Host / name | Value |
+|---|---|---|
+| A | `@` (the bare domain) | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `lamo2802-cell.github.io` |
+
+Then in **Settings > Pages**, confirm the custom domain shows `thisisnudge.co.uk` and wait for the DNS check to pass (minutes to a day). Once it does, tick **Enforce HTTPS**. Remove any parking-page or default records your registrar added for `@` or `www` first.
+
+GitHub's docs, in case these values change: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
 
 ## Files
 
 - `index.html`: the one-page site
 - `privacy.html`: privacy notice (review it; it is general, not legal advice)
 - `style.css`: all styling and colours (see `:root` at the top)
-- `404.html`, `favicon.svg`, `.nojekyll`
+- `404.html`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`, `sitemap.xml`

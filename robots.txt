@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thisisnudge.co.uk/sitemap.xml
