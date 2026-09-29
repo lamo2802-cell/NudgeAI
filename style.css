@@ -39,6 +39,8 @@ a { color: var(--accent-dark); }
 .header-row { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; gap: 16px; }
 .brand { display: inline-flex; align-items: baseline; font-family: 'Manrope', 'Inter', sans-serif; font-weight: 800; font-size: 1.7rem; letter-spacing: -0.03em; line-height: 1; color: #fff; text-decoration: none; }
 .wordmark .dot { color: var(--accent); }
+.nm { white-space: nowrap; font-weight: 800; }
+.nm .dot { color: #14A98C; }
 nav { display: flex; align-items: center; gap: 24px; }
 nav a { color: var(--night-soft); text-decoration: none; font-weight: 500; font-size: 0.98rem; }
 nav a:hover { color: #fff; }
@@ -96,12 +98,10 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-
   .cards.four { grid-template-columns: 1fr 1fr; }
   .cards.services { grid-template-columns: 1fr 1fr; }
   .card.s3, .card.s2 { grid-column: span 1; }
-  .card.s3:nth-child(3) { grid-column: span 2; }
 }
 @media (max-width: 600px) {
   body { font-size: 16.5px; }
   nav a:not(.btn) { display: none; }
   .cards.four, .cards.services { grid-template-columns: 1fr; }
-  .card.s3:nth-child(3) { grid-column: span 1; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
