@@ -2,17 +2,9 @@
 
 A small static site (no build step) for GitHub Pages.
 
-## Before it goes live: replace the placeholders
+## Before it goes live
 
-Search all files for these and replace them:
-
-| Placeholder | Replace with |
-|---|---|
-| `YOUR_EMAIL` | Your business email address (in `index.html` and `privacy.html`) |
-| `YOUR_ADDRESS` | A contact address for the business (a sole trader must show name and address on business documents) |
-| `[DATE]` | Date of the privacy notice (in `privacy.html`) |
-
-Also read the About text in `index.html` and make sure you're happy with every claim.
+Contact details are filled in. Re-read the About text in `index.html` and the privacy notice in `privacy.html`, and make sure you are happy with every claim.
 
 ## Publish on GitHub Pages
 
