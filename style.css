@@ -77,7 +77,9 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-
 .card.s3 { grid-column: span 2; }
 .card.s2 { grid-column: span 3; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
-.services .card { border-top: 4px solid var(--accent-dark); }
+.services .card { background: var(--night); border: none; }
+.services .card h3 { color: #fff; }
+.services .card p { color: var(--night-soft); }
 .card.plain { background: transparent; }
 .card p { color: var(--ink-soft); margin-bottom: 0; }
 
