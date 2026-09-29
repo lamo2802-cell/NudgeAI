@@ -33,7 +33,7 @@ GitHub's docs, in case these values change: https://docs.github.com/en/pages/con
 
 ## Files
 
-- `index.html`, `services.html`, `about.html`, `contact.html`: the site pages
+- `index.html`: the one-page site
 - `privacy.html`: privacy notice (review it; it is general, not legal advice)
 - `style.css`: all styling and colours (see `:root` at the top)
 - `404.html`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`, `sitemap.xml`
