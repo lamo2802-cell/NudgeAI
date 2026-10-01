@@ -120,3 +120,5 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-
 
 .contact-page .wrap.narrow { max-width: 900px; }
 .btn-icon.btn-li { min-width: 0; }
+.wrap.narrow.prose { max-width: 900px; }
+.prose p { max-width: 720px; }
