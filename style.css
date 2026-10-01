@@ -117,3 +117,8 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-
 
 .contact-page .eyebrow { color: var(--accent); }
 @media (max-width: 600px) { .btn-icon { font-size: 0.95rem; padding: 14px 16px; } }
+
+.social { margin: 28px 0 0; }
+.social-link { display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 50%; border: 2px solid #4C7480; color: #fff; transition: background .15s, border-color .15s, color .15s; }
+.social-link:hover { background: var(--accent); border-color: var(--accent); color: var(--night); }
+.social-link svg { display: block; }
